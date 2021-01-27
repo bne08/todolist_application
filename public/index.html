@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.css" integrity="sha512-9iWaz7iMchMkQOKA8K4Qpz6bpQRbhedFJB+MSdmJ5Nf4qIN1+5wOVnzg5BQs/mYH3sKtzY+DOgxiwMz8ZtMCsw==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="stylesheet" href="style.css">
+    
+   <title>deneme</title>
+   
+  </head>
+  <body>
+    
+     <div class="container">
+    <header class="text-center text-danger my-4">
+      <h1 class="mb-4">YAPILACAKLAR</h1>
+      <form class="search">
+        <input class="form-control m-auto" type="text" name="search" placeholder="yapılacaklar ara"/>
+      </form>
+    </header>
+
+    <ul class="list-group todos mx-auto text-dark">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <span>ingilizce ogreniyorum</span>
+        <i class="far fa-trash-alt delete"></i>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <span>kurs olustur</span>
+        <i class="far fa-trash-alt delete"></i>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <span>spora git</span>
+        <i class="far fa-trash-alt delete"></i>
+      </li>
+    </ul>
+    <form class="add-form text-center my-4"> 
+      <label class="text-dark">yeni yapılacak ekle</label>
+      <input type="text" class="form-control m-auto" name="add"/>
+    </form>
+    </div>
+     <script src="./src/App.js"></script>
+  </body>
+ 
+</html>
